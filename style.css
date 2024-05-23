@@ -17,32 +17,59 @@ body {
 .form {
     background-color: brown;
     width: 20%;
+    height: 350px;
     margin: 30px;
 }
 
 #text {
-    margin: 15px;
-    padding: 5px 20px;
+    /* margin: 15px; */
+    margin: 15px 20px;
+    padding: 6px 20px;
     border: 1px solid black;
 }
 
-.icon {
-    background-color: rgb(72, 255, 255);
-    position: relative;
-}
-
-.icon i {
-    
-}
-
-/* .label {
-    margin: 15px;
+.label {
     color: white;
-} */
+    font-size: 18px;
+    font-weight: bold;
+}
 
-/* .label input {
-    width: 100%;
-    margin-top: 10px;
-    padding: 5px 20px;
+.label label {
+    margin-left: 20px;
+}
+
+.label input {
+    margin: 5px 20px;
+    padding: 6px 20px;
     border: 1px solid black;
-} */
+}
+
+.leftIcon {
+    position: relative;
+    margin: 15px 20px;
+}
+
+.leftIcon input {
+    padding: 6px 20px;
+}
+
+.leftIcon i {
+    position: absolute;
+    top: 20%;
+    left: 5px;
+}
+
+.rightIcon {
+    position: relative;
+    margin: 15px 20px;
+}
+
+.rightIcon input {
+    padding: 6px 20px;
+}
+
+.rightIcon i {
+    position: absolute;
+    top: 20%;
+    right: 35px;
+}
